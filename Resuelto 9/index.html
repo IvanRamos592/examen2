@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    //EJERCICIO 1
+    <script>
+         var n1, mayor;
+         n1 = Number(window.prompt("Ingrese un numero"));
+     
+         switch(n1){
+             case 1:
+                 document.write("sabado");
+                 break;
+             case 2:
+                 document.write("domingo");
+                 break;
+             case 3:
+                 document.write("lunes");
+                 break;
+             case 4:
+                 document.write("martes");
+                 break;
+             case 5:
+                 document.write("miercoles");
+                 break;
+             case 6:
+                 document.write("jueves");
+                 break;
+             case 7:
+                 document.write("viernes");
+                 break;
+ 
+             default:
+                 document.write("este numero no es valido");
+                 break;
+         }
+     </script>
+ //EJERCICIO 2
+ 
+     <script>
+     var edad;
+        edad = Number(window.prompt("¿Cuál es tu edad?"));
+         if(edad>= 18){
+             document.write("Eres mayor de edad puede conducir");
+         }else{
+             document.write("Eres menor de edad no puede condicir");
+         }
+     </script>
+ 
+ 
+ 
+ 
+ 
+ //EJERCICIO 3
+     <script>
+         var n1,n2,n3,t,mayor;
+         n1 = Number(window.prompt("Ingrese primer valor"));
+         n2 = Number(window.prompt("Ingrese segundo valor"));
+         n3 = Number(window.prompt("Ingrese tercer valor"));
+     
+         if (n1 > n2 && n1>n3) {
+             document.write("el mayor es "+n1);
+         }
+         if (n2 > n1 && n2>n3) 
+         {
+            document.write("el mayor es "+n2)
+         }
+         if (n3 > n1 && n3>n2) 
+         {
+            document.write("el mayor es "+n3)
+         }
+     </script>
+     
+     
+     //ejercicio 4
+     
+ <script>
+         //Pregunta 
+         var numero1 = Number(window.prompt("Ingrese primera nota"));
+         var numero2 = Number(window.prompt("Ingrese segunda nota"));
+         var numero3 = Number(window.prompt("Ingrese tercera nota"));
+         document.write("<h1>El promedio es: " + (numero1 + numero2 + numero3)/3 + "</h1>");
+ 
+         var promedio = Number((numero1 + numero2 + numero3)/3);
+          if  (promedio > 50 ){
+              document.write("El estudiante esta aprobado");
+          } 
+           else{
+              document.write("El estudiante esta reprobo");
+          }
+ 
+     </script>
+     <script>
+        //EJERCICIO 5
+        var edad = Number(window.prompt("Ingrese su edad"));
+ 
+ 
+        if(edad >= 18){
+        
+        document.write("<h1>Tienes : " + edad +" años, Puedes votar</h1>");
+        }else{
+        document.write("<h1>Tienes : " + edad +" años, No puedes votar</h1>");
+        }
+    </script>
+    
+</body>
+</html>

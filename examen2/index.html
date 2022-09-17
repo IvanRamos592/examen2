@@ -1,0 +1,93 @@
+<html>
+    <head>
+        <title>Examen 2</title>
+        <link href= "estilos.css" rel="stylesheet" type="text/css"></link>
+           
+                   
+            
+      
+    </head>
+    <body>
+        <div class="contenedor">
+            <div class="menu">
+                <div class="logo">
+                    <img src="imagenes/logo.png" >
+                </div>
+                <div class="menu-2">
+                    <ul class="seccion-lista">
+                        <li class="lista">Inicio</li>
+                        <li class="lista">Sobre Nosotros</li>
+                        <li class="lista">Trabajos</li>
+                        <li class="lista">Contacto</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="seccion1">
+                <div class="img">
+                    <img src="https://thelogisticsworld.com/wp-content/uploads/2020/10/Logistica-digital-criterios-para-elegir-la-mejor-tecnologia-en-la-nube-scaled.jpg" jsaction="load:XAeZkd;" jsname="HiaYvf" class="n3VNCb KAlRDb" alt="3 tecnologías innovadoras para la cadena de suministro" data-noaft="1" style="width: 1000px; height: 356.027px; margin: 0px;"></img>
+                </div>  
+            </div>
+            <div class="seccion2">
+                
+                <p>DETALLE DE SECCIONES</p>
+                                   
+                    <table>
+                         <tr>
+                             <th>Seccion 1</th>
+                             <th>Seccion 2</th>
+                             <th>Seccion 3</th>
+                         </tr>
+                         
+                             <td>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea optio porro nobis sapiente dolorem soluta vel quibusdam totam, animi quo vero, voluptatum quae quos obcaecati rerum officiis perspiciatis impedit fuga?</td>
+                             <td nowrap>
+                                
+                                <form name = "convertir">
+                                <h2> Tipo de Cambio <br> Bolivianos a Dólares: </br>Cambio 6,91 </h2>
+                                <br> Bolivianos <input type = "text" name = "bolivianos" >
+                                <hr>
+                                <br> Dólares : <input type = "text" name = "dolar" >
+                                <br>
+                                <br> <input type = "button" value="CONVERTIR" onclick= "calcular();">
+                                <br>
+                                <br> <input type="reset" value="Borrar Datos">
+
+                                </form>
+                                <script type = "text/javascript">
+                                function calcular(){
+                                    var bol =(document.convertir.bolivianos.value)*1;
+                                    if(bol == 0){
+                                        alert ("No ingreso ninguna cantidad")
+                                    }else{
+
+                                    var tot=bol/6.91;
+                                    tot=tot.toFixed(2);
+
+                                    document.convertir.dolar.value=tot;
+                                    }
+                                }
+                                </script>
+                        
+                             </td>
+                             <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi ut sequi labore, officia temporibus numquam doloribus, soluta est illum eos a dolorum delectus eius eligendi. Ipsum omnis magni neque beatae!</td>
+                         </tr>
+                    </table>
+            </div>
+            <div class="seccion3">
+                <p>DETALLE DE SECCIONES</p>
+               <script>
+                    function alerta(){
+                        alert("Bienvenido Iván Ramos")
+                    }
+               </script>
+               <input type="button" onclick="alerta()" value="Iniciar Sesion"
+                    <div class="img">
+                    <img src="imagenes/logo.png" >
+                    </div>
+                </div>
+
+                        
+            </div>
+            
+
+</html>
