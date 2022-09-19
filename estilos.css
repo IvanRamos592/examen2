@@ -1,0 +1,160 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+.contenedor{
+    background-color:#fff;
+    width: 100%;
+    height: 100%;
+}
+.menu{
+    width: 95%;
+    height: 100px;
+    /* background-color: darkviolet;*/
+    padding: 15px;
+    float: left;
+}
+.logo{
+    width: 10%;
+    height: 80%;
+    text-align: center;
+    color: #fff;
+    float: left;
+}
+.logo img{
+    width: 100%;
+    height: 180%;
+}
+.seccion-lista{
+    background-color: #fff;
+    margin-top: 30px;
+    box-sizing: border-box;
+}
+.menu-2{
+    padding-top: 25px;
+    text-align: center;
+    background-color: #fff;
+    border-left: 5200px;
+}
+.lista{
+    display: inline-block;
+    padding-right: 15px;
+    text-align: center;
+}
+.img img{
+    text-align: center;
+    width: 1350px;   
+    height: 500px;
+    
+        
+  }
+.estilo-boton{
+    background-color: blue;
+    padding: 10px;
+    color: white;
+    border-color: blue;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+    margin-top: 20px;
+    }
+.imagen{
+    float: right;
+    width: 10px;
+}
+
+
+.seccion1{
+    padding: 5px;
+    width: 50%;
+    float: left;
+    text-align: center;
+    
+}
+.seccion2{
+    background-color: bisque;
+    text-align: center;
+    padding: 5px;
+    width: 100%;
+    
+    float: left;
+}
+.seccion2 p{
+    width: auto;
+    background-color: aliceblue;
+    border-radius: 50px;
+}
+.seccion2 td{
+    text-align: center;
+    background-color: F9FF33;
+    
+    
+}
+.seccion2 tr{
+    text-align: center;
+    background-color: F9FF33;
+}
+
+.seccion3 {
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+    float: left;
+    background-color: antiquewhite;
+    
+}
+.seccion3 img{
+    width: 25%;
+    height: 20%;
+    text-align: center;
+    margin-top: 20px;   
+}
+.caja{
+    height: 5%;
+    width: auto;
+    background-color: aliceblue;
+    margin-top: 20px;
+}
+.seccion3 p{
+    text-align: center;
+    width: 50%;
+    
+   
+}
+.img2 img{
+    width: 100px;
+}
+.login{
+    width: 400px;
+    height: 150px;
+    margin: auto;
+    margin-top: 30px;
+    box-shadow: 7px 13px 37px #000;
+    padding: 20px 30px;
+    border-top: 4px solid #017bab;
+    color: #fff;
+    background-color: 4b4b4b;
+    
+}
+.controles{
+    width: 80%;
+    border: 1px solid #017bab;
+    margin-bottom:15px;
+    padding: 7px 7px;
+    font-size: 14px;
+}
+.boton{
+    width: 50%;
+    height: 30px;
+}
+.login p{
+    text-align: center;
+    font-size: 17px;
+        
+}
+.login a{
+    text-decoration:underline;
+    color: white;
+
+}
+
