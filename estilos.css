@@ -44,7 +44,7 @@
 .img img{
     text-align: center;
     width: 1350px;   
-    height: 500px;
+    height: 600px;
     
         
   }
@@ -93,6 +93,7 @@
 .seccion2 tr{
     text-align: center;
     background-color: F9FF33;
+    height: 50px;
 }
 
 .seccion3 {
@@ -157,4 +158,5 @@
     color: white;
 
 }
+
 
