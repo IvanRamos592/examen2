@@ -158,5 +158,8 @@
     color: white;
 
 }
-
+th, td{
+    width: 20%;
+    
+}
 
